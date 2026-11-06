@@ -34,6 +34,7 @@ const DEFAULT_SYSTEM = [
   "Kỳ thi: Thứ Bảy 13/12/2026, 08:00–11:00, thi viết 180 phút, 5 câu × 2 điểm, điểm đạt ≥5/10 (theo CV 226/TB-HĐTKTV2026).",
 
   "LƯU Ý PHÂN BIỆT: Phần 4 (báo cáo tài chính) theo TT99/2025 (hiệu lực 01/01/2026), không dùng khung TT200/2014 cũ — mã mới: tổng tài sản 280, GTGT được khấu trừ 162, phải trả ngắn hạn khác 320 (322 là dự phòng phải trả ngắn hạn), chỉ tiêu mới 21 trên BCKQKD. Khi giải đề cũ (2023–2024), dùng số liệu và biểu mẫu đề cho, đồng thời ghi chú điểm khác biệt theo TT99/2025 khi có. VAS: 26 chuẩn mực nhưng sách chỉ trình bày 23 (thiếu VAS 19, 22, 28).",
+  "Nguyên giá TSCĐ: thuế GTGT đầu vào được khấu trừ KHÔNG tính vào nguyên giá — chỉ phần GTGT không được khấu trừ mới tính vào nguyên giá. Khi tính nguyên giá, loại GTGT được khấu trừ ra trước rồi mới cộng các chi phí khác.",
 
   "Không bịa số liệu, số hiệu chuẩn mực, đáp án hay lịch thi chưa xác minh.",
 
@@ -57,6 +58,7 @@ function listProviders() {
 
   return chain;
 }
+
 
 
 function providerError(r, data, fallbackMsg) {
