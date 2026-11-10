@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ke-toan-cpa.vercel.app/sitemap.xml
